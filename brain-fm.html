@@ -3,36 +3,51 @@
   <head>
     <title>Brain-Fm</title>
     <link rel="stylesheet" type="text/css" href="./css/brain-fm.css" />
+    <link rel="stylesheet" type="text/css" href="./css/brain-fm-flex.css" />
   </head>
-  <body>
-    <header class="container">
-      <div class="logo-img">
-        <img src="./images/logo.png" />
-      </div>
-      <div class="a">
-        <a href="">Sign In</a>
-      </div>
-      <div class="try"> 
-        <input id="button-1" type="button" value="Try for free" />
-      </div>
-    </header>
 
-    <main class="main">
-      <div>
-        <h1>Functional Music to Improve Focus in 15 Minutes</h1>
-        <p>Our science-first approach creates music that sounds different-and affects your brain differently-than any other music</p> <br>
-        <p>Featured In</p>
+  <body>
+    <div class="flex-container">
+      <div class="flex-row flex-center">
+        <div class="img-logo">
+          <img src="./images/logo.png" />
+        </div>
+        <div class="flex-row flex-center flex-right">
+          <a href="">Sign Up</a>
+        </div>
+        <div class="flex-row">
+          <input id="button-1" type="button" value="Try for free" />
+        </div>
+      </div>
+    </div>
+    <!-- <hr> -->
+
+    <div class="flex-container">
+      <div class="flex-column">
+        <h1><span>Functional Music to Improve</span><br>Focus in 15 Minutes</h1>
+        <p>Our science-first approach creates music that sounds different-and affects your brain differently-than any other music
+          <br><br><span>Featured In</span></p>
         <img src="./images/clout.png" />
       </div>
-      <div>
+      <div class="flex-row flex-center">
         <img class="img-1" src="./images/picture-1.gif" />
       </div>
-    </main>
+    </div>
+    <!-- <hr> -->
 
-    <footer class="container">
-      <div>
-        <p>Wanna see the science?</p> 
+    <div class="flex-container flex-center">
+      <p>Wanna see the science?</p>
+    </div>
+    <!-- <hr> -->
+
+    <div class="flex-container">
+      <div class="flex-row flex-center">
+        <img src="./images/picture-2.gif" />
       </div>
-    </footer>
+      <div class="flex-row flex-center">
+        <img src="./images/picture-3.png" />
+      </div>
+    </div>
   </body>
+
 </html>
