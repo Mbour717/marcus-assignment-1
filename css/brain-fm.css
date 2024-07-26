@@ -1,5 +1,5 @@
 body {
-  background-color: #1c1ce5e0;
+  background-color: #3317eaf0;
   font-family: Arial;
   color: ghostwhite;
 }
@@ -15,6 +15,7 @@ body {
 
 .task-2 {
   flex: 3;
+  padding-right: 15px;
 }
 
 .task-3 {
@@ -70,11 +71,13 @@ body {
 
 
 .button-2 {
-  padding: 15px 10px;
+  padding: 15px 25px;
   border-radius: 20px;
   border: 0px;
   background: #FF9C33;
   color: #FFFFFF;
+  margin-top: 20px;
+  margin-left: 20px
 }
 
 a { 
@@ -95,4 +98,23 @@ a {
 .bold {
   font-weight: bold;
   text-decoration: underline;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0px;
+}
+
+.content-h2 {
+  margin: 0px;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.content-p {
+  color: rgb(176, 176, 176);
+}
+
+.font-1 {
+  font-size: 20px;
 }
