@@ -1,27 +1,98 @@
 body {
-  background-color: #3633FF;
+  background-color: #1c1ce5e0;
   font-family: Arial;
   color: ghostwhite;
-  height: 100vh;
 }
 
-a:visited {
-  color: #FFFFFF
+.header {
+  display: flex;
+  align-items: center;
 }
 
-.img-logo {
-  width: 800px;
-  max-width: 100%;
+.task-1 {
+  flex-grow: 50;
 }
 
-.img-1 {
-  max-width: 60%;
+.task-2 {
+  flex: 3;
 }
 
-#button-1 {
+.task-3 {
+  margin-right: 100px;
+}
+
+.button-1 {
   padding: 10px 25px;
-  border-radius: 15px;
+  border-radius: 20px;
   border: 0px;
   background: #FF9C33;
   color: #FFFFFF;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.main {
+  flex: 0 0 400px;
+  margin-left: px;
+}
+
+.main-img {
+  flex: 0 0 900px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-2 {
+  flex: 0 0 400px;
+  margin-top: 25px;
+  margin-right: 100px;
+}
+
+.img-3 {
+  flex: 0 0 300px;
+  margin-top: 200px;
+  margin-bottom: 130px;
+  margin-right: 150px;
+}
+
+.img-3-self {
+  margin-bottom: 60px;
+}
+
+
+.button-2 {
+  padding: 15px 10px;
+  border-radius: 20px;
+  border: 0px;
+  background: #FF9C33;
+  color: #FFFFFF;
+}
+
+a { 
+  color: ghostwhite;
+  text-decoration: none;
+}
+
+.img-1 {
+  display: flex;
+  max-width: 100%;
+}
+
+.mid {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.bold {
+  font-weight: bold;
+  text-decoration: underline;
 }
